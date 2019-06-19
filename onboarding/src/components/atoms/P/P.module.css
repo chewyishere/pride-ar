@@ -1,0 +1,17 @@
+@value large from "../../../assets/styles/breakpoints.module.css";
+
+.p {
+  font-family: Univers;
+  font-size: 1.6rem;
+  font-weight: normal;
+  line-height: 1.63;
+  color: var(--black);
+}
+
+@media (large) {
+  .p {
+    font-size: 2.2rem;
+    line-height: 1.36;
+    letter-spacing: -0.5px;
+  }
+}

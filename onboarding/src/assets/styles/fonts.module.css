@@ -23,6 +23,14 @@ body {
 }
 
 @font-face {
+  font-family: 'Univers';
+  src: url('../fonts/UniversLTStd.woff2') format('woff2'),
+    url('../fonts/UniversLTStd.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'UniversLTStd';
   src: url('../fonts/UniversLTStd-Bold.woff2') format('woff2'),
     url('../fonts/UniversLTStd-Bold.woff') format('woff');

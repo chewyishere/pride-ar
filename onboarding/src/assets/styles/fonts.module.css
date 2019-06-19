@@ -1,7 +1,23 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
 @font-face {
   font-family: 'Trash';
   src: url('../fonts/trash-medium-webfont.woff2') format('woff2'),
     url('../fonts/trash-medium-webfont.woff') format('woff');
   font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Trash';
+  src: url('../fonts/trash-bold-webfont.woff2') format('woff2'),
+    url('../fonts/trash-bold-webfont.woff') format('woff');
+  font-weight: bold;
   font-style: normal;
 }

@@ -1,12 +1,14 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Eyebrow from './components/atoms/Eyebrow';
+import logo from 'logo.svg';
+import 'App.css';
+import { ReactComponent as Logo } from 'assets/img/pride-march-logo-white.svg';
+import Eyebrow from 'components/atoms/Eyebrow';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
+        <Logo />
         <img src={logo} className="App-logo" alt="logo" />
         <p>
           Edit <code>src/App.js</code> and save to reload.

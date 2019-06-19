@@ -3,6 +3,7 @@ import 'App.css';
 import { ReactComponent as Logo } from 'assets/img/pride-march-logo-white.svg';
 import Eyebrow from 'components/atoms/Eyebrow';
 import H1 from 'components/atoms/H1';
+import Year from 'components/atoms/Year';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         </a>
         <Eyebrow>Eyebrow</Eyebrow>
         <H1>H1</H1>
+        <Year>1969-2019</Year>
       </header>
     </div>
   );

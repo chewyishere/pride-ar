@@ -1,0 +1,8 @@
+.eyebrow {
+  font-family: Trash;
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: -0.3px;
+  color: eggshell;
+  color: var(--eggshell);
+}

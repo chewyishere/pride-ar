@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 import styles from './Eyebrow.module.css';
 
 const Eyebrow = ({ children }) => {
-  return <p class={styles.eyebrow}>{children}</p>;
+  return <p className={styles.eyebrow}>{children}</p>;
 };
 
 Eyebrow.propTypes = {

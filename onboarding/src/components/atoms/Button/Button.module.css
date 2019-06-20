@@ -1,7 +1,7 @@
 @value large from "../../../assets/styles/breakpoints.module.css";
 
 .button {
-  display: inline-block;
+  display: block;
 }
 
 @media (large) {

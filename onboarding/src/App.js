@@ -8,6 +8,7 @@ import Year from 'components/atoms/Year';
 import P from 'components/atoms/P';
 import Section from 'components/atoms/Section';
 import Button from 'components/atoms/Button';
+import ButtonRefresh from 'components/atoms/ButtonRefresh';
 
 function App() {
   return (
@@ -44,6 +45,7 @@ function App() {
           <Button href="/test" bgColor="#E3453D" color="#B4DBD6">
             Let's go
           </Button>
+          <ButtonRefresh>Test</ButtonRefresh>
         </Section>
       </header>
     </div>

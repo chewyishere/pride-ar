@@ -1,5 +1,9 @@
 @value large from "../../../assets/styles/breakpoints.module.css";
 
+.button {
+  display: inline-block;
+}
+
 @media (large) {
   .button {
     display: none;

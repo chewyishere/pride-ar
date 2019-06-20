@@ -57,7 +57,7 @@ function App() {
 
           <ButtonRefresh>Test</ButtonRefresh>
 
-          <Number>3</Number>
+          <Number>{3}</Number>
         </Section>
       </header>
     </div>

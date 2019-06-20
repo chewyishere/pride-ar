@@ -5,6 +5,7 @@ import Eyebrow from 'components/atoms/Eyebrow';
 import H1 from 'components/atoms/H1';
 import Year from 'components/atoms/Year';
 import P from 'components/atoms/P';
+import Section from 'components/atoms/Section';
 
 function App() {
   return (
@@ -22,20 +23,22 @@ function App() {
         <Eyebrow>Eyebrow</Eyebrow>
         <H1>H1</H1>
         <Year>1969-2019</Year>
-        <P>
-          Fifty years ago, the Stonewall Uprising sparked the modern day LGBTQ+
-          liberation movement — creating a blaze of activism and awareness. To
-          shine a light on the milestones and sacrifices that brought us to this
-          moment, we created a way for the community and its allies to bring the
-          story of NYC Pride to life.
-        </P>
-        <P>
-          Please enjoy our immersive AR experience, narrated by Gerald Busby who
-          witnessed the movement first hand, and rally with our cast of colorful
-          Icons — each representing pivotal moments from the past. So show some
-          love, join the march and let the world know, the only direction we’re
-          moving is forward.
-        </P>
+        <Section>
+          <P>
+            Fifty years ago, the Stonewall Uprising sparked the modern day
+            LGBTQ+ liberation movement — creating a blaze of activism and
+            awareness. To shine a light on the milestones and sacrifices that
+            brought us to this moment, we created a way for the community and
+            its allies to bring the story of NYC Pride to life.
+          </P>
+          <P>
+            Please enjoy our immersive AR experience, narrated by Gerald Busby
+            who witnessed the movement first hand, and rally with our cast of
+            colorful Icons — each representing pivotal moments from the past. So
+            show some love, join the march and let the world know, the only
+            direction we’re moving is forward.
+          </P>
+        </Section>
       </header>
     </div>
   );

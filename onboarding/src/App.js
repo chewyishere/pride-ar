@@ -9,6 +9,7 @@ import P from 'components/atoms/P';
 import Section from 'components/atoms/Section';
 import Button from 'components/atoms/Button';
 import ButtonRefresh from 'components/atoms/ButtonRefresh';
+import Number from 'components/atoms/Number';
 
 function App() {
   const colors = getComputedStyle(document.documentElement);
@@ -55,6 +56,8 @@ function App() {
           </Button>
 
           <ButtonRefresh>Test</ButtonRefresh>
+
+          <Number>3</Number>
         </Section>
       </header>
     </div>

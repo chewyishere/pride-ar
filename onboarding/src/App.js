@@ -11,6 +11,8 @@ import Button from 'components/atoms/Button';
 import ButtonRefresh from 'components/atoms/ButtonRefresh';
 
 function App() {
+  const colors = getComputedStyle(document.documentElement);
+
   return (
     <div className="App">
       <header className="App-header">
@@ -35,6 +37,7 @@ function App() {
             brought us to this moment, we created a way for the community and
             its allies to bring the story of NYC Pride to life.
           </P>
+
           <P>
             Please enjoy our immersive AR experience, narrated by Gerald Busby
             who witnessed the movement first hand, and rally with our cast of
@@ -42,9 +45,15 @@ function App() {
             show some love, join the march and let the world know, the only
             direction we’re moving is forward.
           </P>
-          <Button href="/test" bgColor="#E3453D" color="#B4DBD6">
+
+          <Button
+            href="/test"
+            bgColor={colors.getPropertyValue('--pale-red')}
+            color={colors.getPropertyValue('--silver')}
+          >
             Let's go
           </Button>
+
           <ButtonRefresh>Test</ButtonRefresh>
         </Section>
       </header>

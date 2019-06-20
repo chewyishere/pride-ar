@@ -2,3 +2,15 @@
   padding: 0;
   border: 0;
 }
+
+.buttonRefresh rect {
+  fill: var(--dusk-blue);
+}
+
+.buttonRefresh g g {
+  stroke: var(--rose-pink);
+}
+
+.buttonRefresh text {
+  fill: var(--rose-pink);
+}

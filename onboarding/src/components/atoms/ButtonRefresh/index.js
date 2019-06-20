@@ -18,8 +18,8 @@ const ButtonRefresh = ({ children }) => {
         viewBox="0 0 234 50"
       >
         <g fill="none" fillRule="evenodd">
-          <rect width="234" height="50" fill="#31469F" rx="25" />
-          <g stroke="#ED9298">
+          <rect width="234" height="50" rx="25" />
+          <g>
             <path
               strokeLinejoin="round"
               strokeWidth="3"
@@ -28,7 +28,6 @@ const ButtonRefresh = ({ children }) => {
             <path strokeWidth="4" d="M210 23.143L216.6 26l4.4-5" />
           </g>
           <text
-            fill="#ED9298"
             fontFamily="SFProText-Regular, SF Pro Text"
             fontSize="18"
             letterSpacing="-.434"

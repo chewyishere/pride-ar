@@ -1,14 +1,21 @@
 :root {
   --black: #000000;
   --white: #ffffff;
+
   --silver: #b4dbd6;
   --eggshell: #e5f1df;
+
   --rose-pink: #ed9298;
   --dusk-blue: #31469f;
+
   --grapefruit: #ff5555;
   --light-peach: #e1dccf;
+
   --cloudy-blue: #a4d3de;
   --dark-blue-green: #00523c;
+
   --sandy: #eae076;
   --pine: #22552c;
+
+  --pale-red: #e3453d;
 }

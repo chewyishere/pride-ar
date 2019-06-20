@@ -1,0 +1,14 @@
+.header {
+  padding: 2.4rem 2.2rem;
+  background-color: var(--silver);
+  color: var(--white);
+}
+
+.header svg {
+  width: 8.9rem;
+  height: auto;
+}
+
+.header p {
+  float: right;
+}

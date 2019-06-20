@@ -1,0 +1,7 @@
+@value large from "../../../assets/styles/breakpoints.module.css";
+
+@media (large) {
+  .button {
+    display: none;
+  }
+}

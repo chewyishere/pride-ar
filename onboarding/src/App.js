@@ -7,20 +7,21 @@ import H2 from 'components/atoms/H2';
 import Year from 'components/atoms/Year';
 import P from 'components/atoms/P';
 import Section from 'components/atoms/Section';
+import Button from 'components/atoms/Button';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
         <Logo />
-        <a
+        {/* <a
           className="App-link"
           href="https://reactjs.org"
           target="_blank"
           rel="noopener noreferrer"
         >
           Learn React
-        </a>
+        </a> */}
         <Eyebrow>Eyebrow</Eyebrow>
         <H1>H1</H1>
         <H2>H2</H2>
@@ -40,6 +41,9 @@ function App() {
             show some love, join the march and let the world know, the only
             direction we’re moving is forward.
           </P>
+          <Button href="/test" bgColor="#E3453D" color="#B4DBD6">
+            Let's go
+          </Button>
         </Section>
       </header>
     </div>

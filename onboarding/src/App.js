@@ -3,7 +3,6 @@ import 'App.css';
 import Eyebrow from 'components/atoms/Eyebrow';
 import H1 from 'components/atoms/H1';
 import H2 from 'components/atoms/H2';
-import Year from 'components/atoms/Year';
 import P from 'components/atoms/P';
 import Section from 'components/atoms/Section';
 import Button from 'components/atoms/Button';
@@ -28,7 +27,6 @@ function App() {
       <Eyebrow>Eyebrow</Eyebrow>
       <H1>H1</H1>
       <H2>H2</H2>
-      <Year>1969-2019</Year>
       <Section>
         <P>
           Fifty years ago, the Stonewall Uprising sparked the modern day LGBTQ+

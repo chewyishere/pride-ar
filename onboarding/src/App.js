@@ -9,6 +9,7 @@ import Button from 'components/atoms/Button';
 import ButtonRefresh from 'components/atoms/ButtonRefresh';
 import Number from 'components/atoms/Number';
 import Header from 'components/molecules/Header';
+import Img from 'components/atoms/Img';
 
 function App() {
   const colors = getComputedStyle(document.documentElement);
@@ -16,6 +17,13 @@ function App() {
   return (
     <div className="home">
       <Header text="1969-2019" />
+      <Img
+        src={require('assets/img/p-1.jpg')}
+        src2x={require('assets/img/p-1@2x.jpg')}
+        srcLarge={require('assets/img/p-1-large.jpg')}
+        srcLarge2x={require('assets/img/p-1-large@2x.jpg')}
+        alt="test"
+      />
       {/* <a
           className="App-link"
           href="https://reactjs.org"

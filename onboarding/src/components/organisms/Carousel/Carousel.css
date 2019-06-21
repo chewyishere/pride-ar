@@ -1,0 +1,32 @@
+.slick-arrow {
+  width: 7.1rem;
+  height: 5rem;
+}
+
+.slick-prev {
+  left: 35%;
+  z-index: 1;
+}
+
+.slick-next {
+  right: 35%;
+}
+
+.slick-arrow:before {
+  content: ' ';
+  display: block;
+  height: 5rem;
+}
+
+.slick-prev:before {
+  background-image: url(../../../assets/img/arrow-pill-left.svg);
+}
+
+.slick-next:before {
+  background-image: url(../../../assets/img/arrow-pill-right.svg);
+}
+
+.slick-arrow {
+  top: auto;
+  bottom: 0;
+}

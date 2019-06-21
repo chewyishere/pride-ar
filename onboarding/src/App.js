@@ -5,6 +5,7 @@ import HomeText from 'components/molecules/HomeText';
 import ButtonRefresh from 'components/atoms/ButtonRefresh';
 import Number from 'components/atoms/Number';
 import Header from 'components/molecules/Header';
+import Carousel from 'components/organisms/Carousel';
 
 function App() {
   return (
@@ -24,6 +25,8 @@ function App() {
           `Please enjoy our immersive AR experience, narrated by Gerald Busby who witnessed the movement first hand, and rally with our cast of colorful Icons — each representing pivotal moments from the past. So show some love, join the march and let the world know, the only direction we’re moving is forward.`
         ]}
       />
+
+      <Carousel />
 
       <HomeText
         title={

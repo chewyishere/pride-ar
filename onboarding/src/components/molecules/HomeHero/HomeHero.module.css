@@ -1,0 +1,8 @@
+.homeHero {
+  background-color: var(--silver);
+  text-align: right;
+}
+
+.homeHero a {
+  padding: 9rem 3rem 4.2rem 0;
+}

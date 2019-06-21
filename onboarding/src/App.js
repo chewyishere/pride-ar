@@ -1,41 +1,20 @@
 import React from 'react';
 import 'App.css';
-import Eyebrow from 'components/atoms/Eyebrow';
-import H1 from 'components/atoms/H1';
+import HomeHero from 'components/molecules/HomeHero';
 import H2 from 'components/atoms/H2';
 import P from 'components/atoms/P';
 import Section from 'components/atoms/Section';
-import Button from 'components/atoms/Button';
 import ButtonRefresh from 'components/atoms/ButtonRefresh';
 import Number from 'components/atoms/Number';
 import Header from 'components/molecules/Header';
-import Img from 'components/atoms/Img';
 
 function App() {
-  const colors = getComputedStyle(document.documentElement);
-
   return (
     <div className="home">
       <Header text="1969-2019" />
-      <Img
-        src={require('assets/img/p-1.jpg')}
-        src2x={require('assets/img/p-1@2x.jpg')}
-        srcLarge={require('assets/img/p-1-large.jpg')}
-        srcLarge2x={require('assets/img/p-1-large@2x.jpg')}
-        alt="test"
-      />
-      {/* <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a> */}
-      <Eyebrow>Eyebrow</Eyebrow>
-      <H1>H1</H1>
-      <H2>H2</H2>
+      <HomeHero />
       <Section>
+        <H2>ONCE UPON A PROTEST</H2>
         <P>
           Fifty years ago, the Stonewall Uprising sparked the modern day LGBTQ+
           liberation movement — creating a blaze of activism and awareness. To
@@ -52,15 +31,7 @@ function App() {
           moving is forward.
         </P>
 
-        <Button
-          href="/test"
-          bgColor={colors.getPropertyValue('--pale-red')}
-          color={colors.getPropertyValue('--silver')}
-        >
-          Let's go
-        </Button>
-
-        <ButtonRefresh>Test</ButtonRefresh>
+        <ButtonRefresh>Refresh</ButtonRefresh>
 
         <Number>{3}</Number>
       </Section>

@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import Img from 'components/atoms/Img';
 import Button from 'components/atoms/Button';
 import styles from './HomeHero.module.css';
@@ -25,7 +24,5 @@ const HomeHero = () => {
     </div>
   );
 };
-
-HomeHero.propTypes = {};
 
 export default HomeHero;

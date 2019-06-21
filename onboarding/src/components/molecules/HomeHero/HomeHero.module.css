@@ -3,6 +3,10 @@
   text-align: right;
 }
 
+.homeHero img {
+  padding-top: 1rem;
+}
+
 .homeHero a {
   padding: 9rem 3rem 4.2rem 0;
 }
